@@ -50,6 +50,9 @@ ul li a:hover {
   text-align: center;
   box-shadow:2px 2px black;
 }
+.hamburger{
+  display:none;
+}
 
 .welcome h1 {
   text-align: center;
@@ -65,7 +68,7 @@ ul li a:hover {
   padding-top: 2rem;
   font-size: 20px;
   color: white;
-  /* text-shadow: 2px 2px black; */
+
 }
 input[type="button"] {
   padding: 0.5em;
@@ -206,7 +209,56 @@ text-align: center;
   justify-content: space-around;
   align-items: center;
 }
-  
-
-
- 
+@media screen and (max-width: 768px) {
+  ul li a{
+    display:none;
+  }
+  .Account{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+  .welcome h1 {
+    font-size: 40px;
+}
+.welcome p {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  font-size: 15px;
+  color: white;
+  justify-content: center;
+  line-height: 30px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.book-here{
+  display: block;
+  background: none; 
+}
+.flex-containers-2 {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.form-1 form{
+  display: inline;
+  margin-top: 5px;
+}
+.form-2 form{
+  display:inline;
+  margin-top: 5px;
+  padding: none;
+}
+input[type="date"] {
+  width: 8.5em;
+}
+}
