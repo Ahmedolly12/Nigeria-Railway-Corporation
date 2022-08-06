@@ -40,18 +40,18 @@ ul li a:hover {
   opacity: 0.5;
 }
 .Account {
-  background-color:#ffb500;
+  background-color: #ffb500;
   color: white;
-  padding:0.5em;
+  padding: 0.5em;
   border-radius: 2px;
   border: none;
   cursor: pointer;
   font-weight: 500;
   text-align: center;
-  box-shadow:2px 2px black;
+  box-shadow: 2px 2px black;
 }
-.hamburger{
-  display:none;
+.hamburger {
+  display: none;
 }
 
 .welcome h1 {
@@ -68,11 +68,10 @@ ul li a:hover {
   padding-top: 2rem;
   font-size: 20px;
   color: white;
-
 }
 input[type="button"] {
   padding: 0.5em;
-  background-color:rgba(71, 135, 120, 0.8);
+  background-color: rgba(71, 135, 120, 0.8);
   color: white;
   border: 1px solid white;
   border-radius: 2px;
@@ -80,13 +79,12 @@ input[type="button"] {
   cursor: pointer;
 }
 h3 {
-  text-align:center;
+  text-align: center;
   color: white;
   display: block;
-  background:rgba(71, 135, 120, 0.8);;
-  padding:1em;
+  background: rgba(71, 135, 120, 0.8);
+  padding: 1em;
   border-width: auto;
-
 }
 .book-here {
   display: flex;
@@ -99,44 +97,45 @@ h3 {
 form {
   display: inline;
   color: white;
+  width: 100%;
 }
-.form-1 .form-2{
-    display: inline;
-    padding: 1em;
+.form-1 .form-2 {
+  display: inline;
+  padding: 1em;
+  /* width:100%; */
+}
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.button-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-select{
-    width: 25%;
-    padding: 5px;
-    flex-direction: column;
+select {
+  width: 25%;
+  padding: 5px;
+  flex-direction: column;
 }
 input[type="date"] {
-    width: 25%;
-    padding: 5px;
-    
+  width: 20%;
+  padding: 5px;
+  display: inline;
 }
-.find{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.train{
-    padding: 1px;
-    font-weight: 500;
-    color: white;
-    background: #ffb500;
-    margin-top: 2em;
-    border: none;
-    padding: 1em;
-    border-radius: 16px;
-    box-shadow: 2px 2px black;
-    cursor: pointer;
+.train {
+  padding: 1px;
+  font-weight: 500;
+  color: white;
+  background: #ffb500;
+  margin-top: 2em;
+  border: none;
+  padding: 1em;
+  border-radius: 16px;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
 }
 .flex-containers-2 {
   display: flex;
@@ -144,41 +143,42 @@ input[type="date"] {
   align-items: center;
   padding-left: 2em;
   padding-right: 2em;
- 
 }
-.item-1{
-  width: 20em; 
+span{
+  display: none;
+}
+.item-1 {
+  width: 20em;
   height: 20em;
   background-color: white;
-  margin:2em;
-  box-shadow:5px 5px 5px black;
+  margin: 2em;
+  box-shadow: 5px 5px 5px black;
+}
+.item-2 {
+  width: 20em;
+  height: 20em;
+  background-color: white;
+  margin: 2em;
+  box-shadow: 5px 5px 5px black;
+}
 
-}
-.item-2{
-   width: 20em; 
+.item-3 {
+  width: 20em;
   height: 20em;
   background-color: white;
-  margin:2em;
-  box-shadow:5px 5px 5px black;   
+  margin: 2em;
+  box-shadow: 5px 5px 5px black;
 }
-
-.item-3{
-   width: 20em; 
-  height: 20em;
-  background-color: white;
-  margin:2em;
-  box-shadow:5px 5px 5px black;
-}
-.changes p{
+.changes p {
   font-family: Arial, Helvetica, sans-serif;
-  padding-top:1em;
+  padding-top: 1em;
   padding-left: 2em;
 }
-.more{
+.more {
   padding: 20px;
 }
- .btny{
-  background-color:#ffb500;
+.btny {
+  background-color: #ffb500;
   width: 18em;
   padding: 10px;
   border-radius: 10px;
@@ -186,93 +186,105 @@ input[type="date"] {
   color: white;
   font-size: 15px;
   font-weight: 500;
-  box-shadow:2px 2px black;
+  box-shadow: 2px 2px black;
   cursor: pointer;
- }
- footer{
-  background-color:rgba(28, 27, 27, 0.5);
- }
- footer .socials{
+}
+footer {
+  background-color: rgba(28, 27, 27, 0.5);
+}
+footer .socials {
   display: flex;
   align-items: center;
   justify-content: center;
- }
+}
 
-footer .contact{
-text-align: center;
+footer .contact {
+  text-align: center;
   color: white;
   font-size: 16px;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 @media screen and (max-width: 768px) {
-  ul li a{
-    display:none;
-  }
-  .Account{
+  ul li a {
     display: none;
   }
-  .hamburger{
+  .Account {
+    display: none;
+  }
+  .hamburger {
     display: block;
   }
   .welcome h1 {
     font-size: 40px;
-}
-.welcome p {
-  text-align: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  font-size: 15px;
-  color: white;
-  justify-content: center;
-  line-height: 30px;
-}
-.button-container{
+  }
+  .welcome p {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+    line-height: 30px;
+  }
+  .button-container {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 12px;
-}
-.book-here{
-  display: block;
-  background: none;
-  padding-left: 5em; 
-}
-.flex-containers-2 {
-  display: block;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-.form-1 form{
-  display: inline;
-  margin-top: 5px;
-}
-.form-2 form{
-  display:inline;
-  margin-top: 5px;
-  padding: none;
-}
-input[type="date"] {
-  width: 50%;  
-}
-.flex-containers-2{
-  margin-top: 10em;
-}
-select{
-  /* padding-left: 2em; */
-  display: block;
+  }
+  .book-here {
+    display: block;
+    background: none;
+    padding-left: 5em;
+  }
+  .flex-containers-2 {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    /* padding-right: 1em; */
+  }
+  .form-1 form {
+    display: inline;
+    margin-top: 5px;
+  }
+
+  .form-2 form {
+    display: inline;
+    margin-top: 5px;
+    padding: none;
+  }
+  input[type="date"] {
+    width: 50%;
+    border: 2px solid white;
+    color: black;
+  }
+  .flex-containers-2 {
+    margin-top: 10em;
+    margin-left: none;
+    margin-right: none;
+    /* padding-left: 1em; */
+    /* padding-right: 1em; */
+  }
+  select {
+    display: block;
     width: 50%;
     padding: 10;
     flex-direction: column;
-}
-.find{
-  padding-right: 11em;
-}
+    color: black;
+    border: 2px solid white;
+  }
+  .find {
+    padding-right: 11em;
+    width: 100%;
+  }
+  span{
+    display: block;
+  }
 }
