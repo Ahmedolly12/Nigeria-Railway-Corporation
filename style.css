@@ -265,12 +265,8 @@ footer .contact {
     border: 2px solid white;
     color: black;
   }
-  .flex-containers-2 {
+  .flex-containers-2{
     margin-top: 10em;
-    margin-left: none;
-    margin-right: none;
-    /* padding-left: 1em; */
-    /* padding-right: 1em; */
   }
   select {
     display: block;
@@ -287,4 +283,16 @@ footer .contact {
   span{
     display: block;
   }
+  .item-1 {
+    margin-left: 0;  
+    margin-right: 0;
+}
+.item-2 {
+    margin-left: 0;
+    margin-right: 0;
+}
+.item-3 {
+    margin-left: 0;
+    margin-right: 0;
+}
 }
