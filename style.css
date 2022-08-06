@@ -240,7 +240,8 @@ text-align: center;
 }
 .book-here{
   display: block;
-  background: none; 
+  background: none;
+  padding-left: 5em; 
 }
 .flex-containers-2 {
   display: block;
@@ -259,6 +260,19 @@ text-align: center;
   padding: none;
 }
 input[type="date"] {
-  width: 8.5em;
+  width: 50%;  
+}
+.flex-containers-2{
+  margin-top: 10em;
+}
+select{
+  /* padding-left: 2em; */
+  display: block;
+    width: 50%;
+    padding: 10;
+    flex-direction: column;
+}
+.find{
+  padding-right: 11em;
 }
 }
